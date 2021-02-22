@@ -2,10 +2,20 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
-
-
-
-
+function fizzBuzz(num){
+  if(num % 3 === 0 && num % 5 === 0){
+    return "FizzBuzz";
+  } else if (num % 3 === 0){
+    return "Fizz";
+  } else if (num % 5 === 0){
+    return "Buzz";
+  } else {
+    return num;
+  }
+    
+  
+  
+  
 
 
 
@@ -19,7 +29,7 @@
 
 if (typeof fizzy === "undefined") {
   fizzy = undefined;
-}
+};
 
 module.exports = {
   fizzy,
