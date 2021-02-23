@@ -2,7 +2,7 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
-function fizzBuzz(num){
+function fizzy(num){
   if(num % 3 === 0 && num % 5 === 0){
     return "FizzBuzz";
   } else if (num % 3 === 0){
@@ -12,6 +12,7 @@ function fizzBuzz(num){
   } else {
     return num;
   }
+}
     
   
   
